@@ -92,54 +92,36 @@ disp.plot(cmap='Blues')
 # Show the plot
 plt.title("Confusion Matrix for Best Model")
 plt.show()
-
+```
 How to Run This Project
 1️⃣ Clone the Repository:
+```
 git clone https://github.com/yourusername/Credit_Risk_Prediction.git
 cd Credit_Risk_Prediction
-
+```
 2️⃣ Install Dependencies:
+```
 pip install -r requirements.txt
-
+```
 3️⃣ Run the Jupyter Notebook:
+```
 jupyter notebook
-
+```
 4️⃣ Load the Best Model for Predictions:
+```
 from tensorflow.keras.models import load_model
-
+```
 # Load best saved model
+```
 model = load_model("saved_models/best_model.h5")
-
+```
 # Make predictions
+```
 predictions = model.predict(X_test)
-
-
-🎥 Video Submission
-The 5-minute video presentation includes:
-✅ Explanation of the dataset and problem statement
-✅ Walkthrough of the implemented ML & Neural Network models
-✅ Discussion of optimizations and results (performance table)
-✅ Comparison between ML and Neural Network models
-✅ Confusion Matrix & Error Analysis
-
-📌 Video must include the presenter's face (Camera ON) 🎥
-
-📌 Conclusion
-This project successfully applied Machine Learning and Neural Networks to predict credit risk.
-
-🔹 Neural Networks with Adam & L2 regularization performed the best.
-🔹 XGBoost was the strongest traditional ML model.
-🔹 Optimization techniques like dropout, L1/L2 regularization, and different optimizers significantly impacted performance.
+```
 
 🎥 Video Submission
-The 5-minute video presentation includes:
-✅ Explanation of the dataset and problem statement
-✅ Walkthrough of the implemented ML & Neural Network models
-✅ Discussion of optimizations and results (performance table)
-✅ Comparison between ML and Neural Network models
-✅ Confusion Matrix & Error Analysis
-
-📌 Video must include the presenter's face (Camera ON) 🎥
+Here is the link:
 
 📌 Conclusion
 This project successfully applied Machine Learning and Neural Networks to predict credit risk.
@@ -154,6 +136,3 @@ This project successfully applied Machine Learning and Neural Networks to predic
 
 📌 GitHub Repository Link
 🔗 GitHub Repository
-
-
----
