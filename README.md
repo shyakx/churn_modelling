@@ -18,9 +18,10 @@ The dataset includes the following key features:
 ---
 
 ## **Project Structure**  
+```
 Credit_Risk_Prediction/ │── notebook.ipynb # Jupyter Notebook with ML & NN models │── README.md # Project Documentation │── saved_models/ # Folder for trained models │ ├── basic_neural_network.h5 │ ├── optimized_neural_network.h5 │ ├── best_model.h5 │ ├── logistic_regression.pkl │ ├── xgboost_model.pkl
 
-
+```
 ---
 
 ## **Model Implementations**  
