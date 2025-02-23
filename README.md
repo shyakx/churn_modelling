@@ -66,7 +66,7 @@ The table below summarizes the results of the **Optimized Neural Network** with 
 
 | Model | Accuracy | F1-Score | Precision | Recall |
 |--------|------------|------------|------------|------------|
-| **Logistic Regression** | 0.85 | 0.79 | 0.80 | 0.78 |
+| **Logistic Regression** | 0.81 | 0.79 | 0.80 | 0.78 |
 | **SVM (RBF Kernel)** | 0.83 | 0.81 | 0.82 | 0.80 |
 | **XGBoost** | 0.88 | 0.86 | 0.85 | 0.87 |
 | **Optimized Neural Network (Best Model)** | **0.90** | **0.89** | **0.90** | **0.88** |
@@ -94,6 +94,7 @@ plt.title("Confusion Matrix for Best Model")
 plt.show()
 ```
 How to Run This Project
+
 1️⃣ Clone the Repository:
 ```
 git clone https://github.com/yourusername/Credit_Risk_Prediction.git
